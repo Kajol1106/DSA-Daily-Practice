@@ -1,0 +1,37 @@
+Brute Force Method : 
+======================
+
+It simply means that try out all the alternatives (Possible solution) until you are exhausted of options. 
+If the problem is solvable, you will eventually find an answer.
+
+Let us understand it with a very easy example. Suppose you have a locked folder that can be opened by a 5-digit lock 
+	code. You have no hint about the lock code, but you just want to see what is behind that lock, what would you do? 
+	You would start from 00000 and go all the way to 99999. If the lock is working correctly, one of the combination 
+	would definitely open the lock. Although it would take some time, but eventually you would be able to solve the 
+	problem.
+On the other hand, if you have hints about who owns the folder, or what date was the folder created, you may be able 
+	to try out some known combinations first. That could be an optimized approach. Similarly, for problem solving 
+	skills in computer science, if a solution to a problem exists, it guaranteed, that you will find it by a brute 
+	force method, i.e. applying all the possible combinations.
+
+QUESTION: Given a 3 * 3 grid, you need to fill in numbers from 1-9 such that sum of all diagonals, rows and columns 
+		is the same. Also note that none of the numbers should be repeated.
+
+ans. -------------------------------------------------------------------------------->
+
+We also call it the magic square problem. Now you have to approach this problem in a brute force manner. 
+You can start of by trying numbers in any fashion, and keep on verifying the sum in all directions.
+
+Eventually you will reach the correct answer. The sum of every row, column and diagonal is equal to 15 
+in this combination of numbers. Because a solution to this problem existed, we were able to find it in a 
+brute force manner. But do keep in mind that the brute force method to solve this problem could be very time taking. 
+There are a total of 362880 total possible ways to fill up the grid.
+
+Important! Let us try to change the question a little bit. Instead of a 3 * 3 grid, what if you have a 2 * 2 grid? 
+You need to fill the grid with numbers 1-4 such that no numbers are repeated. No matter what combination you try, 
+you can never reach a condition where the sum of all rows, diagonals and columns is the same.
+
+This means that the solution to this problem does not exist. Hence, even a brute force approach would be unsuccessful.
+
+
+
