@@ -1,0 +1,32 @@
+As the name suggests, two pointer technique involves the using two pointers 
+(generally, to keep track of indexes), to solve a problem, with the benefit of 
+saving time and space.
+
+A simple example can be to find out if a given string is a palindrome or not. 
+The most intuitive way to check if the given string is a palindrome or not, 
+is to reverse the string, and then check if the reversed string and the original 
+string are equal. But, this problem involves the reversal of the string, and 
+storing it in a separate string, which involves using extra space.
+
+To do the same without using any extra space, we can use a two pointers.
+
+We maintain two pointers left and right, where left is initalized to the start of 
+the string, while right is initialized to the end of the string.
+
+At each point, we check if the character pointed by the left pointer and the 
+character pointed by the right pointer are same or not. If they are, 
+we increment the left pointer, and decrement the right pointer, otherwise we 
+return false, which indicates the string is not a palindrome.
+
+This is done till the point, the two pointers meet. Once the pointers meet, and 
+we exit the loop, indicating all the characters have been processed, 
+we return true
+
+Conclusion :
+Two Pointer technique is a powerful technique, which can be used in scenarios 
+which involve two pointers, and at each step both the pointers are coming towards 
+each other
+
+Some interesting problems that can be solved optimally using two pointers are :
+1) Reversing an Array (Constant Space Complexity)
+2) Rotating an Array by K Steps
