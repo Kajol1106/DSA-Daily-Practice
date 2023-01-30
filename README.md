@@ -1,3 +1,26 @@
 # DSA-Daily-Practice
 
-## DSA Problem using Java
+## Problem solved using Java
+
+### Using Prime number logic :
+```
+1) Identify Prime
+2) Prime Sum Up
+3) Matrix Prime Check
+4) Matrix Non Prime Check
+5) Prime Loop Check
+6) Two Primes
+```
+
+### Palindrome Related :
+```
+1) Alternate Palindrome
+2) Check String is Palindrome or Not
+3) Detect Palindrome
+4) Detect Palindrome II
+5) Palindrome List
+```
+#### Three Max, Three Min Please
+#### Two & Three
+#### Two Sum
+
