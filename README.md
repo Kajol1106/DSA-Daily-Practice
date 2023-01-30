@@ -20,7 +20,16 @@
 4) Detect Palindrome II
 5) Palindrome List
 ```
-#### Three Max, Three Min Please
-#### Two & Three
-#### Two Sum
+
+### Two Pointer
+```
+1) Two Sum
+```
+
+### Other 
+```
+1) Three Max, Three Min Please
+2) Two & Three
+```
+
 
